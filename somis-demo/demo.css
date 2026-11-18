@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#f6efe2;color:#3d2a17}
+.badge{position:fixed;top:10px;right:10px;background:#d62828;color:#fff;font-weight:700;padding:6px 12px;border-radius:6px;z-index:99;font-size:13px}
+a{color:#6b4a2b}button,.btn{background:#6b4a2b;color:#fff;border:0;border-radius:8px;padding:10px 16px;font-size:15px;cursor:pointer;text-decoration:none;display:inline-block}
+button.alt{background:#fff;color:#6b4a2b;border:1px solid #6b4a2b}
+.wrap{max-width:1000px;margin:0 auto;padding:24px 16px}
+.card{background:#fff;border-radius:10px;padding:14px;box-shadow:0 2px 8px #0001}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.ph{height:120px;border-radius:8px;background:repeating-linear-gradient(45deg,#e6d3b0,#e6d3b0 10px,#efe0c4 10px,#efe0c4 20px);display:flex;align-items:center;justify-content:center;color:#8a6a45;font-size:12px;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover}
+select,input,textarea{padding:7px;border:1px solid #c9b48f;border-radius:6px;font-size:14px;max-width:100%}
+/* squirrel placeholder; mouth toggled by .talking or setMouth() */
+.squirrel{width:150px;height:170px;position:relative}
+.squirrel .body{position:absolute;bottom:0;left:25px;width:90px;height:110px;background:#a0612e;border-radius:50% 50% 40% 40%}
+.squirrel .tail{position:absolute;bottom:10px;left:90px;width:60px;height:130px;background:#b8743a;border-radius:50% 50% 50% 10%}
+.squirrel .head{position:absolute;top:0;left:30px;width:80px;height:70px;background:#a0612e;border-radius:50%}
+.squirrel .ear{position:absolute;top:-10px;width:20px;height:28px;background:#8a4f22;border-radius:50% 50% 0 0}
+.squirrel .eye{position:absolute;top:24px;width:9px;height:9px;background:#222;border-radius:50%}
+.squirrel .mouth{position:absolute;top:46px;left:31px;width:18px;height:3px;background:#3a1a08;border-radius:9px;transition:height .06s}
+.squirrel .mouth.open{height:12px}

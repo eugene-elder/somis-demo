@@ -1,0 +1,3465 @@
+{
+ "source": "real-inventory.md (somisnuthouse.com WooCommerce export, 262 simple products)",
+ "products": [
+  {
+   "id": "peanuts",
+   "name": "Peanuts",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "Raw Blanched Shelled Peanuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 2.59,
+     "sku": "354",
+     "inStock": true
+    },
+    {
+     "style": "In Shell Roasted Peanuts",
+     "salt": "n/a",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 2.79,
+     "sku": "351",
+     "inStock": true
+    },
+    {
+     "style": "Salted Blanched Shelled Peanuts",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 2.69,
+     "sku": "355",
+     "inStock": true
+    },
+    {
+     "style": "No Salt Roasted Blanched Shelled Peanuts",
+     "salt": "Unsalted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 2.69,
+     "sku": "356",
+     "inStock": true
+    },
+    {
+     "style": "No Salt Spanish Peanuts",
+     "salt": "Unsalted",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.19,
+     "sku": "363",
+     "inStock": true
+    },
+    {
+     "style": "Raw Blanched Shelled Peanuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "2 lb",
+     "price": 5.1,
+     "sku": "605",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Spanish Peanuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "5 lb",
+     "price": 14.95,
+     "sku": "369",
+     "inStock": true
+    },
+    {
+     "style": "Peanut Butter Filled Preztel Nuggets",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "272",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "pistachios",
+   "name": "Pistachios",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "Unsalted California Natural Pistachios",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 8.55,
+     "sku": "403",
+     "inStock": true
+    },
+    {
+     "style": "Unsalted California Natural Pistachios",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 16.99,
+     "sku": "402",
+     "inStock": true
+    },
+    {
+     "style": "Salted California Natural Pistachios",
+     "salt": "Salted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 8.55,
+     "sku": "384",
+     "inStock": true
+    },
+    {
+     "style": "Salted California Natural Pistachios",
+     "salt": "Salted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 16.99,
+     "sku": "380",
+     "inStock": true
+    },
+    {
+     "style": "Salted California Natural Pistachios",
+     "salt": "Salted",
+     "roast": "Raw",
+     "size": "2 lb",
+     "price": 33.8,
+     "sku": "385",
+     "inStock": true
+    },
+    {
+     "style": "Salted California Natural Pistachios",
+     "salt": "Salted",
+     "roast": "Raw",
+     "size": "4 lb",
+     "price": 36.0,
+     "sku": "386",
+     "inStock": false
+    },
+    {
+     "style": "Salted Dry Roasted Shelled Pistachios",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1/2 lb",
+     "price": 10.55,
+     "sku": "391",
+     "inStock": true
+    },
+    {
+     "style": "Salted Dry Roasted Shelled Pistachios",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 18.15,
+     "sku": "383",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "almonds",
+   "name": "Almonds",
+   "category": "Almonds",
+   "variants": [
+    {
+     "style": "Diced Roasted Almonds",
+     "salt": "n/a",
+     "roast": "Roasted",
+     "size": "Standard",
+     "price": 8.19,
+     "sku": "302",
+     "inStock": true
+    },
+    {
+     "style": "In Shell Almonds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 3.59,
+     "sku": "307",
+     "inStock": true
+    },
+    {
+     "style": "Natural Raw Shelled Almonds",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 6.59,
+     "sku": "315",
+     "inStock": true
+    },
+    {
+     "style": "Natural Raw Shelled Almonds",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "2 lb",
+     "price": 13.1,
+     "sku": "316",
+     "inStock": true
+    },
+    {
+     "style": "Natural Raw Shelled Almonds",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "5 lb",
+     "price": 32.5,
+     "sku": "317",
+     "inStock": true
+    },
+    {
+     "style": "Roasted No Salt Almonds",
+     "salt": "Unsalted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 6.99,
+     "sku": "319",
+     "inStock": true
+    },
+    {
+     "style": "Roasted Salted Almonds",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 6.99,
+     "sku": "320",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "cashews",
+   "name": "Cashews",
+   "category": "Cashews",
+   "variants": [
+    {
+     "style": "No Salt Roasted Cashews",
+     "salt": "Unsalted",
+     "roast": "Roasted",
+     "size": "1/2 lb",
+     "price": 4.55,
+     "sku": "327",
+     "inStock": true
+    },
+    {
+     "style": "No Salt Roasted Cashews",
+     "salt": "Unsalted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 8.99,
+     "sku": "329",
+     "inStock": true
+    },
+    {
+     "style": "Raw Whole Cashews",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 4.55,
+     "sku": "602",
+     "inStock": true
+    },
+    {
+     "style": "Raw Whole Cashews",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 8.99,
+     "sku": "600",
+     "inStock": true
+    },
+    {
+     "style": "Salted 320ct Cashews",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1/2 lb",
+     "price": 4.55,
+     "sku": "326",
+     "inStock": true
+    },
+    {
+     "style": "Salted 320ct Cashews",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 8.99,
+     "sku": "328",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "walnuts",
+   "name": "Walnuts",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "In Shell Walnuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.29,
+     "sku": "394",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Black Walnuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 8.99,
+     "sku": "609",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Walnut Halves And Pieces",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 6.99,
+     "sku": "397",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Walnut Halves And Pieces",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "2 lb",
+     "price": 13.9,
+     "sku": "398",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Walnut Halves And Pieces",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "5 lb",
+     "price": 34.45,
+     "sku": "399",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "macadamias",
+   "name": "Macadamias",
+   "category": "Macadamia Nuts",
+   "variants": [
+    {
+     "style": "Raw Shelled Macadamia Nuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 6.55,
+     "sku": "337",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Macadamia Nuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 12.99,
+     "sku": "338",
+     "inStock": true
+    },
+    {
+     "style": "Salted Macadamia Nuts",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1/2 lb",
+     "price": 6.55,
+     "sku": "603",
+     "inStock": true
+    },
+    {
+     "style": "Salted Macadamia Nuts",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 12.99,
+     "sku": "604",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "filberts",
+   "name": "Filberts",
+   "category": "Filberts",
+   "variants": [
+    {
+     "style": "In Shell Filberts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.59,
+     "sku": "333",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Filberts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 5.55,
+     "sku": "334",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Filberts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 10.99,
+     "sku": "332",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "pecans",
+   "name": "Pecans",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "In Shell Natural Pecans",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 5.79,
+     "sku": "370",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Pecan Pieces",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 5.65,
+     "sku": "373",
+     "inStock": true
+    },
+    {
+     "style": "Raw Shelled Pecan Pieces",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "2 lb",
+     "price": 22.3,
+     "sku": "377",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "salted-deluxe-mixed-nuts",
+   "name": "Salted Deluxe Mixed Nuts",
+   "category": "Mixed Nuts",
+   "variants": [
+    {
+     "style": "Salted Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.25,
+     "sku": "342",
+     "inStock": true
+    },
+    {
+     "style": "Salted Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 12.45,
+     "sku": "346",
+     "inStock": true
+    },
+    {
+     "style": "Salted Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "2 lb",
+     "price": 24.8,
+     "sku": "347",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "brazil-nuts",
+   "name": "Brazil Nuts",
+   "category": "Brazil Nuts",
+   "variants": [
+    {
+     "style": "Whole Shelled Raw Brazil Nuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1/2 lb",
+     "price": 9.95,
+     "sku": "322",
+     "inStock": true
+    },
+    {
+     "style": "Whole Shelled Raw Brazil Nuts",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 19.75,
+     "sku": "323",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "butter-toffee-covered-peanuts",
+   "name": "Butter Toffee Covered Peanuts",
+   "category": "Butter Toffee",
+   "variants": [
+    {
+     "style": "Butter Toffee Covered Peanuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 2.55,
+     "sku": "501",
+     "inStock": true
+    },
+    {
+     "style": "Butter Toffee Covered Peanuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.99,
+     "sku": "502",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "california-extra-choice-dried-apricots",
+   "name": "California Extra Choice Dried Apricots",
+   "category": "Apricots",
+   "variants": [
+    {
+     "style": "California Extra Choice Dried Apricots",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 8.35,
+     "sku": "217",
+     "inStock": true
+    },
+    {
+     "style": "California Extra Choice Dried Apricots",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 16.5,
+     "sku": "219",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "deluxe-mixed-nut-gift-tub",
+   "name": "Deluxe Mixed Nut Gift Tub",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "Deluxe Mixed Nut Gift Tub",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 14.5,
+     "sku": "G109",
+     "inStock": true
+    },
+    {
+     "style": "Deluxe Mixed Nut Gift Tub",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "30 oz",
+     "price": 29.0,
+     "sku": "G110",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-turkish-apricots",
+   "name": "Dried Turkish Apricots",
+   "category": "Apricots",
+   "variants": [
+    {
+     "style": "Dried Turkish Apricots",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.59,
+     "sku": "218",
+     "inStock": true
+    },
+    {
+     "style": "Dried Turkish Apricots",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 8.99,
+     "sku": "220",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "extra-fancy-dried-peaches",
+   "name": "Extra Fancy Dried Peaches",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Extra Fancy Dried Peaches",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "502",
+     "inStock": true
+    },
+    {
+     "style": "Extra Fancy Dried Peaches",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 9.89,
+     "sku": "247",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "extra-fancy-dried-pears",
+   "name": "Extra Fancy Dried Pears",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Extra Fancy Dried Pears",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "503",
+     "inStock": true
+    },
+    {
+     "style": "Extra Fancy Dried Pears",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 9.89,
+     "sku": "248",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "honey-roasted-peanuts",
+   "name": "Honey Roasted Peanuts",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "Honey Roasted Peanuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 2.35,
+     "sku": "359",
+     "inStock": true
+    },
+    {
+     "style": "Honey Roasted Peanuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.55,
+     "sku": "366",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "no-salt-deluxe-mixed-nuts",
+   "name": "No Salt Deluxe Mixed Nuts",
+   "category": "Mixed Nuts",
+   "variants": [
+    {
+     "style": "No Salt Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.25,
+     "sku": "343",
+     "inStock": true
+    },
+    {
+     "style": "No Salt Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 12.45,
+     "sku": "348",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "no-salt-pepitas",
+   "name": "No Salt Pepitas",
+   "category": "Pumpkin Seeds",
+   "variants": [
+    {
+     "style": "No Salt Pepitas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.79,
+     "sku": "267",
+     "inStock": true
+    },
+    {
+     "style": "No Salt Pepitas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 7.05,
+     "sku": "270",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "pumpkin-seeds",
+   "name": "Pumpkin Seeds",
+   "category": "Pumpkin Seeds",
+   "variants": [
+    {
+     "style": "Raw Pumpkin Seeds In The Shell",
+     "salt": "Unsalted",
+     "roast": "Raw",
+     "size": "1 lb",
+     "price": 4.79,
+     "sku": "273",
+     "inStock": true
+    },
+    {
+     "style": "Salted In Shell Pumpkin Seeds",
+     "salt": "Salted",
+     "roast": "Roasted",
+     "size": "1 lb",
+     "price": 5.99,
+     "sku": "274",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "raw-deluxe-mixed-nuts",
+   "name": "Raw Deluxe Mixed Nuts",
+   "category": "Mixed Nuts",
+   "variants": [
+    {
+     "style": "Raw Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.1,
+     "sku": "344",
+     "inStock": true
+    },
+    {
+     "style": "Raw Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 12.1,
+     "sku": "349",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "raw-pepitas",
+   "name": "Raw Pepitas",
+   "category": "Pumpkin Seeds",
+   "variants": [
+    {
+     "style": "Raw Pepitas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 2.65,
+     "sku": "268",
+     "inStock": false
+    },
+    {
+     "style": "Raw Pepitas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 7.05,
+     "sku": "271",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "salted-pepitas",
+   "name": "Salted Pepitas",
+   "category": "Pumpkin Seeds",
+   "variants": [
+    {
+     "style": "Salted Pepitas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 7.09,
+     "sku": "269",
+     "inStock": true
+    },
+    {
+     "style": "Salted Pepitas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "7 oz",
+     "price": 3.79,
+     "sku": "266",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "almond-brittle",
+   "name": "Almond Brittle",
+   "category": "Brittles",
+   "variants": [
+    {
+     "style": "Almond Brittle",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 14.69,
+     "sku": "110",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "amaretto-cordials",
+   "name": "Amaretto Cordials",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Amaretto Cordials",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.49,
+     "sku": "203",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "assorted-jelly-beans",
+   "name": "Assorted Jelly Beans",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Assorted Jelly Beans",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "187",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "assorted-misty-mint-kisses",
+   "name": "Assorted Misty Mint Kisses",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Assorted Misty Mint Kisses",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.49,
+     "sku": "178",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "assorted-pastel-colored-jordan-almonds",
+   "name": "Assorted Pastel Colored Jordan Almonds",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Assorted Pastel Colored Jordan Almonds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.89,
+     "sku": "188",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "black-licorice-bites",
+   "name": "Black Licorice Bites",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Black Licorice Bites",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "162",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "black-licorice-jelly-beans-jelly-bellies",
+   "name": "Black Licorice Jelly Beans (Jelly Bellies)",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Black Licorice Jelly Beans (Jelly Bellies)",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.49,
+     "sku": "166",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "blanched-almond-paste",
+   "name": "Blanched Almond Paste",
+   "category": "Almonds",
+   "variants": [
+    {
+     "style": "Blanched Almond Paste",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 12.25,
+     "sku": "299",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "blanched-fine-almond-meal",
+   "name": "Blanched Fine Almond Meal",
+   "category": "Almonds",
+   "variants": [
+    {
+     "style": "Blanched Fine Almond Meal",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 8.19,
+     "sku": "298",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "boston-baked-beans",
+   "name": "Boston Baked Beans",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Boston Baked Beans",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "181",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "butter-toffee-almonds",
+   "name": "Butter Toffee Almonds",
+   "category": "Butter Toffee",
+   "variants": [
+    {
+     "style": "Butter Toffee Almonds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.25,
+     "sku": "301",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "butter-toffee-cashews",
+   "name": "Butter Toffee Cashews",
+   "category": "Butter Toffee",
+   "variants": [
+    {
+     "style": "Butter Toffee Cashews",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 7.99,
+     "sku": "324",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "cajun-sesame-sticks",
+   "name": "Cajun Sesame Sticks",
+   "category": "Snack Sticks",
+   "variants": [
+    {
+     "style": "Cajun Sesame Sticks",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.79,
+     "sku": "276",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "calmyrna-extra-fancy-dried-figs",
+   "name": "Calmyrna Extra Fancy Dried Figs",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Calmyrna Extra Fancy Dried Figs",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 10.85,
+     "sku": "233",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "candy-pebbles",
+   "name": "Candy Pebbles",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Candy Pebbles",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.59,
+     "sku": "183",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "cheese-flavored-sesame-sticks",
+   "name": "Cheese Flavored Sesame Sticks",
+   "category": "Snack Sticks",
+   "variants": [
+    {
+     "style": "Cheese Flavored Sesame Sticks",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.79,
+     "sku": "277",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "cherry-cordials",
+   "name": "Cherry Cordials",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Cherry Cordials",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.49,
+     "sku": "201",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "cherry-red-licorice-bites",
+   "name": "Cherry Red Licorice Bites",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Cherry Red Licorice Bites",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "163",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "chili-covered-sweetened-mangos",
+   "name": "Chili Covered Sweetened Mangos",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Chili Covered Sweetened Mangos",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "3/4 lb",
+     "price": 5.19,
+     "sku": "258",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "chopped-date-nuggets",
+   "name": "Chopped Date Nuggets",
+   "category": "Dates",
+   "variants": [
+    {
+     "style": "Chopped Date Nuggets",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 2.89,
+     "sku": "229",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "cinnamon-drops",
+   "name": "Cinnamon Drops",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Cinnamon Drops",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "150",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "cinnamon-fireballs",
+   "name": "Cinnamon Fireballs",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Cinnamon Fireballs",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "179",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "coconut-cashew-brittle",
+   "name": "Coconut Cashew Brittle",
+   "category": "Brittles",
+   "variants": [
+    {
+     "style": "Coconut Cashew Brittle",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 13.99,
+     "sku": "101",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "coffee-cordials",
+   "name": "Coffee Cordials",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Coffee Cordials",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.49,
+     "sku": "202",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "combo-snack-pack-gift-box",
+   "name": "Combo Snack Pack Gift Box",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "Combo Snack Pack Gift Box",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 32.0,
+     "sku": "G111",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "crystalized-ginger",
+   "name": "Crystalized Ginger",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Crystalized Ginger",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 5.19,
+     "sku": "186",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-almond-bark",
+   "name": "Dark Chocolate Almond Bark",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Almond Bark",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "131",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-almond-clusters",
+   "name": "Dark Chocolate Almond Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Almond Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "133",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-apeels",
+   "name": "Dark Chocolate Apeels",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Apeels",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "145",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-cashew-clusters",
+   "name": "Dark Chocolate Cashew Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Cashew Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 12.99,
+     "sku": "134",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-coconut-haystacks",
+   "name": "Dark Chocolate Coconut Haystacks",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Coconut Haystacks",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "136",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-covered-espresso-beans",
+   "name": "Dark Chocolate Covered Espresso Beans",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Covered Espresso Beans",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.99,
+     "sku": "116",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-covered-macadamias",
+   "name": "Dark Chocolate Covered Macadamias",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Covered Macadamias",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.99,
+     "sku": "138",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-english-toffee-squares",
+   "name": "Dark Chocolate English Toffee Squares",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate English Toffee Squares",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 9.35,
+     "sku": "139",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-espresso-malt-balls",
+   "name": "Dark Chocolate Espresso Malt Balls",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Espresso Malt Balls",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.79,
+     "sku": "627",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-honeycomb-sponge",
+   "name": "Dark Chocolate Honeycomb Sponge",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Honeycomb Sponge",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 7.99,
+     "sku": "140",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-mocha-beans",
+   "name": "Dark Chocolate Mocha Beans",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Mocha Beans",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 8.99,
+     "sku": "130",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-peanut-clusters",
+   "name": "Dark Chocolate Peanut Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Peanut Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 8.29,
+     "sku": "141",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-pecan-turtles",
+   "name": "Dark Chocolate Pecan Turtles",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Pecan Turtles",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 13.25,
+     "sku": "109",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-rocky-road",
+   "name": "Dark Chocolate Rocky Road",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Rocky Road",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 10.59,
+     "sku": "143",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "dark-chocolate-walnut-clusters",
+   "name": "Dark Chocolate Walnut Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dark Chocolate Walnut Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 12.69,
+     "sku": "144",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "date-nut-roll",
+   "name": "Date Nut Roll",
+   "category": "Dates",
+   "variants": [
+    {
+     "style": "Date Nut Roll",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 5.99,
+     "sku": "230",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "delicious-delight",
+   "name": "Delicious Delight",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "Delicious Delight",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 67.0,
+     "sku": "G239",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "deluxe-dried-fruit-compote",
+   "name": "Deluxe Dried Fruit Compote",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Deluxe Dried Fruit Compote",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 7.5,
+     "sku": "242",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "deluxe-licorice-bridge-mix",
+   "name": "Deluxe Licorice Bridge Mix",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Deluxe Licorice Bridge Mix",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.99,
+     "sku": "164",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "diced-dried-fruit-medley",
+   "name": "Diced Dried Fruit Medley",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Diced Dried Fruit Medley",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 7.49,
+     "sku": "243",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-apple-rings",
+   "name": "Dried Apple Rings",
+   "category": "Apples",
+   "variants": [
+    {
+     "style": "Dried Apple Rings",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.39,
+     "sku": "215",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-blueberries",
+   "name": "Dried Blueberries",
+   "category": "Blueberries",
+   "variants": [
+    {
+     "style": "Dried Blueberries",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.59,
+     "sku": "622",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-cranberries",
+   "name": "Dried Cranberries",
+   "category": "Cranberries",
+   "variants": [
+    {
+     "style": "Dried Cranberries",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.09,
+     "sku": "623",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-natural-deglet-noor-dates-with-pits",
+   "name": "Dried Natural Deglet Noor Dates With Pits",
+   "category": "Dates",
+   "variants": [
+    {
+     "style": "Dried Natural Deglet Noor Dates With Pits",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.39,
+     "sku": "231",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-natural-pitted-deglet-noor-dates",
+   "name": "Dried Natural Pitted Deglet Noor Dates",
+   "category": "Dates",
+   "variants": [
+    {
+     "style": "Dried Natural Pitted Deglet Noor Dates",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 5.25,
+     "sku": "232",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-red-tart-pitted-cherries",
+   "name": "Dried Red Tart Pitted Cherries",
+   "category": "Cherries",
+   "variants": [
+    {
+     "style": "Dried Red Tart Pitted Cherries",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.29,
+     "sku": "224",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dried-zante-currants",
+   "name": "Dried Zante Currants",
+   "category": "Currants",
+   "variants": [
+    {
+     "style": "Dried Zante Currants",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.49,
+     "sku": "228",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "dutch-alpine-mints",
+   "name": "Dutch/Alpine Mints",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Dutch/Alpine Mints",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 7.49,
+     "sku": "171",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "filled-raspberry-candy",
+   "name": "Filled Raspberry Candy",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Filled Raspberry Candy",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.39,
+     "sku": "148",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "fruit-snack-pack-gift-box",
+   "name": "Fruit Snack Pack Gift Box",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "Fruit Snack Pack Gift Box",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 26.5,
+     "sku": "G104",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "fruit-and-nut-combo",
+   "name": "Fruit and Nut Combo",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "Fruit and Nut Combo",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 60.0,
+     "sku": "G215",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "garlic-sesame-sticks",
+   "name": "Garlic Sesame Sticks",
+   "category": "Snack Sticks",
+   "variants": [
+    {
+     "style": "Garlic Sesame Sticks",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.79,
+     "sku": "278",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "gift-box-special-packaging-handling",
+   "name": "Gift Box,Special Packaging,Handling",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "Gift Box,Special Packaging,Handling",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 4.5,
+     "sku": "GB358",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "glazed-pecan-halves",
+   "name": "Glazed Pecan Halves",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "Glazed Pecan Halves",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 7.55,
+     "sku": "606",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "glazed-walnuts",
+   "name": "Glazed Walnuts",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "Glazed Walnuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "607",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "golden-select-fancy-seedless-raisins",
+   "name": "Golden Select Fancy Seedless Raisins",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Golden Select Fancy Seedless Raisins",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.59,
+     "sku": "256",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "gourmet-gift-box",
+   "name": "Gourmet Gift Box",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "Gourmet Gift Box",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 45.0,
+     "sku": "G105",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "gourmet-medjool-dates",
+   "name": "Gourmet Medjool Dates",
+   "category": "Dates",
+   "variants": [
+    {
+     "style": "Gourmet Medjool Dates",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 8.39,
+     "sku": "624",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "grandma-s-choice",
+   "name": "Grandma\u2019s Choice",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "Grandma\u2019s Choice",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 67.0,
+     "sku": "G236",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "gummy-apple-o-s",
+   "name": "Gummy Apple O\u2019s",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Gummy Apple O\u2019s",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "152",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "gummy-bears",
+   "name": "Gummy Bears",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Gummy Bears",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "153",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "gummy-peachy-o-s",
+   "name": "Gummy Peachy O\u2019s",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Gummy Peachy O\u2019s",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "157",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "gummy-twin-cherries",
+   "name": "Gummy Twin Cherries",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Gummy Twin Cherries",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "154",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "gummy-worms",
+   "name": "Gummy Worms",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Gummy Worms",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "158",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "honey-roasted-almonds",
+   "name": "Honey Roasted Almonds",
+   "category": "Almonds",
+   "variants": [
+    {
+     "style": "Honey Roasted Almonds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 6.49,
+     "sku": "304",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "honey-roasted-cashews",
+   "name": "Honey Roasted Cashews",
+   "category": "Cashews",
+   "variants": [
+    {
+     "style": "Honey Roasted Cashews",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.49,
+     "sku": "325",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "honey-roasted-sesame-sticks",
+   "name": "Honey Roasted Sesame Sticks",
+   "category": "Snack Sticks",
+   "variants": [
+    {
+     "style": "Honey Roasted Sesame Sticks",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.79,
+     "sku": "288",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "honey-sweetened-banana-chips",
+   "name": "Honey Sweetened Banana Chips",
+   "category": "Bananas",
+   "variants": [
+    {
+     "style": "Honey Sweetened Banana Chips",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 2.45,
+     "sku": "222",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "hostess-special",
+   "name": "Hostess Special",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "Hostess Special",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 47.0,
+     "sku": "G223",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "in-shell-deluxe-mixed-nuts",
+   "name": "In Shell Deluxe Mixed Nuts",
+   "category": "Mixed Nuts",
+   "variants": [
+    {
+     "style": "In Shell Deluxe Mixed Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.19,
+     "sku": "341",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "in-shell-raw-sunflower-seeds",
+   "name": "In Shell Raw Sunflower Seeds",
+   "category": "Seeds",
+   "variants": [
+    {
+     "style": "In Shell Raw Sunflower Seeds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 2.59,
+     "sku": "285",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "irish-cream-cordials",
+   "name": "Irish Cream Cordials",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Irish Cream Cordials",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.49,
+     "sku": "199",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "lemon-chili-peanuts",
+   "name": "Lemon Chili Peanuts",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "Lemon Chili Peanuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.25,
+     "sku": "357",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "lemon-drops",
+   "name": "Lemon Drops",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Lemon Drops",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "190",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "licorice-allsorts",
+   "name": "Licorice Allsorts",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Licorice Allsorts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.59,
+     "sku": "161",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "licorice-pastels",
+   "name": "Licorice Pastels",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Licorice Pastels",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.99,
+     "sku": "167",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "low-sugar-diced-dried-pineapple",
+   "name": "Low Sugar Diced Dried Pineapple",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Low Sugar Diced Dried Pineapple",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 5.79,
+     "sku": "251",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-almond-bark",
+   "name": "Milk Chocolate Almond Bark",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Almond Bark",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "107",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-almond-clusters",
+   "name": "Milk Chocolate Almond Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Almond Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "108",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-apeels",
+   "name": "Milk Chocolate Apeels",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Apeels",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "105",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-bridge-mix",
+   "name": "Milk Chocolate Bridge Mix",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Bridge Mix",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.49,
+     "sku": "106",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-caramel-pecan-turtles",
+   "name": "Milk Chocolate Caramel Pecan Turtles",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Caramel Pecan Turtles",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 13.25,
+     "sku": "111",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-cashew-clusters",
+   "name": "Milk Chocolate Cashew Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Cashew Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 12.99,
+     "sku": "112",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-coconut-haystacks",
+   "name": "Milk Chocolate Coconut Haystacks",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Coconut Haystacks",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "113",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-covered-brazil-nuts",
+   "name": "Milk Chocolate Covered Brazil Nuts",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Covered Brazil Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 9.79,
+     "sku": "114",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-covered-cashews",
+   "name": "Milk Chocolate Covered Cashews",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Covered Cashews",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 7.99,
+     "sku": "115",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-covered-macadamias",
+   "name": "Milk Chocolate Covered Macadamias",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Covered Macadamias",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 9.39,
+     "sku": "117",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-covered-peanuts",
+   "name": "Milk Chocolate Covered Peanuts",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Covered Peanuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.49,
+     "sku": "118",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-covered-raisins",
+   "name": "Milk Chocolate Covered Raisins",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Covered Raisins",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.39,
+     "sku": "120",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-honeycomb-sponge",
+   "name": "Milk Chocolate Honeycomb Sponge",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Honeycomb Sponge",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 7.99,
+     "sku": "122",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-malt-balls",
+   "name": "Milk Chocolate Malt Balls",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Malt Balls",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.79,
+     "sku": "123",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-peanut-butter-malt-balls",
+   "name": "Milk Chocolate Peanut Butter Malt Balls",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Peanut Butter Malt Balls",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.79,
+     "sku": "125",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-peanut-clusters",
+   "name": "Milk Chocolate Peanut Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Peanut Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 8.29,
+     "sku": "126",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-rocky-road",
+   "name": "Milk Chocolate Rocky Road",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Rocky Road",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 10.59,
+     "sku": "127",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-stars",
+   "name": "Milk Chocolate Stars",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Stars",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.09,
+     "sku": "128",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "milk-chocolate-walnut-clusters",
+   "name": "Milk Chocolate Walnut Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Milk Chocolate Walnut Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 12.69,
+     "sku": "129",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "mini-snack-pack",
+   "name": "Mini Snack Pack",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "Mini Snack Pack",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 22.0,
+     "sku": "G101",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "mixed-nut-brittle",
+   "name": "Mixed Nut Brittle",
+   "category": "Brittles",
+   "variants": [
+    {
+     "style": "Mixed Nut Brittle",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 15.99,
+     "sku": "102",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "natural-unsulfured-low-sugar-mango-slices",
+   "name": "Natural Unsulfured Low Sugar Mango Slices",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Natural Unsulfured Low Sugar Mango Slices",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "3/4 lb",
+     "price": 4.89,
+     "sku": "241",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "no-salt-shelled-sunflower-seeds",
+   "name": "No Salt Shelled Sunflower Seeds",
+   "category": "Seeds",
+   "variants": [
+    {
+     "style": "No Salt Shelled Sunflower Seeds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.69,
+     "sku": "290",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "nutty-bread-basket",
+   "name": "Nutty Bread Basket",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "Nutty Bread Basket",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 35.0,
+     "sku": "G202",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "orange-slices",
+   "name": "Orange Slices",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Orange Slices",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "192",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "organic-flax-seed",
+   "name": "Organic Flax Seed",
+   "category": "Flax Seeds",
+   "variants": [
+    {
+     "style": "Organic Flax Seed",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.19,
+     "sku": "612",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "peanut-brittle",
+   "name": "Peanut Brittle",
+   "category": "Brittles",
+   "variants": [
+    {
+     "style": "Peanut Brittle",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 8.29,
+     "sku": "103",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "peco-brittle",
+   "name": "Peco Brittle",
+   "category": "Brittles",
+   "variants": [
+    {
+     "style": "Peco Brittle",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 9.29,
+     "sku": "104",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "pillow-mints",
+   "name": "Pillow Mints",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Pillow Mints",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "173",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "pitted-prunes",
+   "name": "Pitted Prunes",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Pitted Prunes",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 5.49,
+     "sku": "255",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "poppy-seeds",
+   "name": "Poppy Seeds",
+   "category": "Poppy Seeds",
+   "variants": [
+    {
+     "style": "Poppy Seeds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 5.19,
+     "sku": "614",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "prunes-with-pits",
+   "name": "Prunes With Pits",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Prunes With Pits",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 5.39,
+     "sku": "254",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "raspberry-cordials",
+   "name": "Raspberry Cordials",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Raspberry Cordials",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 6.49,
+     "sku": "205",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "raspberry-drops",
+   "name": "Raspberry Drops",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Raspberry Drops",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.29,
+     "sku": "194",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "raw-shelled-pine-nuts",
+   "name": "Raw Shelled Pine Nuts",
+   "category": "Nuts",
+   "variants": [
+    {
+     "style": "Raw Shelled Pine Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 16.79,
+     "sku": "378",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "raw-shelled-sunflower-seeds",
+   "name": "Raw Shelled Sunflower Seeds",
+   "category": "Seeds",
+   "variants": [
+    {
+     "style": "Raw Shelled Sunflower Seeds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 2.89,
+     "sku": "289",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "red-angelino-dried-plums",
+   "name": "Red Angelino Dried Plums",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Red Angelino Dried Plums",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "504",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "roasted-and-salted-green-peas",
+   "name": "Roasted And Salted Green Peas",
+   "category": "Peas",
+   "variants": [
+    {
+     "style": "Roasted And Salted Green Peas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.19,
+     "sku": "264",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "roasted-and-salted-wasabe-green-peas",
+   "name": "Roasted And Salted Wasabe Green Peas",
+   "category": "Peas",
+   "variants": [
+    {
+     "style": "Roasted And Salted Wasabe Green Peas",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.19,
+     "sku": "265",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "roasted-salted-sunflower-seeds-in-the-shell",
+   "name": "Roasted Salted Sunflower Seeds In The Shell",
+   "category": "Seeds",
+   "variants": [
+    {
+     "style": "Roasted Salted Sunflower Seeds In The Shell",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 2.69,
+     "sku": "287",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "roasted-salted-shelled-sunflower-seeds",
+   "name": "Roasted/salted Shelled Sunflower Seeds",
+   "category": "Seeds",
+   "variants": [
+    {
+     "style": "Roasted/salted Shelled Sunflower Seeds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.69,
+     "sku": "291",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "rootbeer-barrels",
+   "name": "Rootbeer Barrels",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Rootbeer Barrels",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "195",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "salted-corn-nuts",
+   "name": "Salted Corn Nuts",
+   "category": "Corn Nuts",
+   "variants": [
+    {
+     "style": "Salted Corn Nuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.39,
+     "sku": "621",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "saltwater-taffy-assorted",
+   "name": "Saltwater Taffy \u2013 Assorted",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Saltwater Taffy \u2013 Assorted",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 4.99,
+     "sku": "207",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "saltwater-taffy-cinnamon",
+   "name": "Saltwater Taffy \u2013 Cinnamon",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Saltwater Taffy \u2013 Cinnamon",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 4.99,
+     "sku": "209",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "saltwater-taffy-peppermint",
+   "name": "Saltwater Taffy \u2013 Peppermint",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Saltwater Taffy \u2013 Peppermint",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 4.99,
+     "sku": "210",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "seedless-thompson-black-raisins",
+   "name": "Seedless Thompson Black Raisins",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Seedless Thompson Black Raisins",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.69,
+     "sku": "257",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sesame-sticks-with-salt",
+   "name": "Sesame Sticks With Salt",
+   "category": "Snack Sticks",
+   "variants": [
+    {
+     "style": "Sesame Sticks With Salt",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.79,
+     "sku": "296",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "smoked-almonds",
+   "name": "Smoked Almonds",
+   "category": "Almonds",
+   "variants": [
+    {
+     "style": "Smoked Almonds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 5.25,
+     "sku": "303",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "snack-pack-gift-box",
+   "name": "Snack Pack Gift Box",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "Snack Pack Gift Box",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 34.0,
+     "sku": "G103",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sourpatch-kids",
+   "name": "Sourpatch Kids",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sourpatch Kids",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 4.99,
+     "sku": "160",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "spiced-midget-gels",
+   "name": "Spiced Midget Gels",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Spiced Midget Gels",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "197",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-dark-chocolate-honeycomb-sponge-candy",
+   "name": "Sugar Free Dark Chocolate Honeycomb Sponge Candy",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Dark Chocolate Honeycomb Sponge Candy",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 17.99,
+     "sku": "712",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-dark-chocolate-peanut-clusters",
+   "name": "Sugar Free Dark Chocolate Peanut Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Dark Chocolate Peanut Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 14.59,
+     "sku": "710",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-gummy-bears",
+   "name": "Sugar Free Gummy Bears",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Gummy Bears",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 5.99,
+     "sku": "700",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-milk-chocolate-covered-peanuts",
+   "name": "Sugar Free Milk Chocolate Covered Peanuts",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Milk Chocolate Covered Peanuts",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 5.39,
+     "sku": "706",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-milk-chocolate-covered-raisins",
+   "name": "Sugar Free Milk Chocolate Covered Raisins",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Milk Chocolate Covered Raisins",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 5.89,
+     "sku": "707",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-milk-chocolate-honeycomb-sponge-candy",
+   "name": "Sugar Free Milk Chocolate Honeycomb Sponge Candy",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Milk Chocolate Honeycomb Sponge Candy",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 17.99,
+     "sku": "711",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-milk-chocolate-peanut-clusters",
+   "name": "Sugar Free Milk Chocolate Peanut Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Milk Chocolate Peanut Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 14.59,
+     "sku": "709",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "sugar-free-saltwater-taffy",
+   "name": "Sugar Free Saltwater Taffy",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "Sugar Free Saltwater Taffy",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 7.29,
+     "sku": "705",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sweetened-angel-flake-coconut",
+   "name": "Sweetened Angel Flake Coconut",
+   "category": "Coconut",
+   "variants": [
+    {
+     "style": "Sweetened Angel Flake Coconut",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 2.19,
+     "sku": "225",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sweetened-diced-dried-papaya",
+   "name": "Sweetened Diced Dried Papaya",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Sweetened Diced Dried Papaya",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.99,
+     "sku": "246",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sweetened-dried-mango-slices",
+   "name": "Sweetened Dried Mango Slices",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Sweetened Dried Mango Slices",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "3/4 lb",
+     "price": 4.89,
+     "sku": "259",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sweetened-dried-papaya-spears",
+   "name": "Sweetened Dried Papaya Spears",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Sweetened Dried Papaya Spears",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.99,
+     "sku": "244",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "sweetened-dried-pineapple-rings",
+   "name": "Sweetened Dried Pineapple Rings",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Sweetened Dried Pineapple Rings",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 6.19,
+     "sku": "249",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "the-big-wheel",
+   "name": "The Big Wheel",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "The Big Wheel",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 107.0,
+     "sku": "G217",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "the-family-basket",
+   "name": "The Family Basket",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "The Family Basket",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 96.0,
+     "sku": "G249",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "the-nut-house-special-gift-basket",
+   "name": "The Nut House Special Gift Basket",
+   "category": "Gift Baskets",
+   "variants": [
+    {
+     "style": "The Nut House Special Gift Basket",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 52.0,
+     "sku": "G218",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "unsulfured-low-sugar-dried-papaya-spears",
+   "name": "Unsulfured Low Sugar Dried Papaya Spears",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Unsulfured Low Sugar Dried Papaya Spears",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 4.99,
+     "sku": "245",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "unsulfured-low-sugar-dried-pineapple-rings",
+   "name": "Unsulfured Low Sugar Dried Pineapple Rings",
+   "category": "Dried Fruit",
+   "variants": [
+    {
+     "style": "Unsulfured Low Sugar Dried Pineapple Rings",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 6.19,
+     "sku": "250",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "vip-gift-box",
+   "name": "VIP Gift Box",
+   "category": "Gift Boxes",
+   "variants": [
+    {
+     "style": "VIP Gift Box",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 99.0,
+     "sku": "GVIP",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "white-chocolate-almond-bark",
+   "name": "White Chocolate Almond Bark",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Chocolate Almond Bark",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "132",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "white-chocolate-almond-clusters",
+   "name": "White Chocolate Almond Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Chocolate Almond Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "Standard",
+     "price": 11.49,
+     "sku": "119",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "white-chocolate-apeels",
+   "name": "White Chocolate Apeels",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Chocolate Apeels",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "146",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "white-chocolate-cashew-clusters",
+   "name": "White Chocolate Cashew Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Chocolate Cashew Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 12.99,
+     "sku": "135",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "white-chocolate-coconut-haystacks",
+   "name": "White Chocolate Coconut Haystacks",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Chocolate Coconut Haystacks",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 11.49,
+     "sku": "137",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "white-chocolate-peanut-clusters",
+   "name": "White Chocolate Peanut Clusters",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Chocolate Peanut Clusters",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 8.29,
+     "sku": "142",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "white-jordan-almonds",
+   "name": "White Jordan Almonds",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Jordan Almonds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 5.89,
+     "sku": "200",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "white-sesame-seeds",
+   "name": "White Sesame Seeds",
+   "category": "Seeds",
+   "variants": [
+    {
+     "style": "White Sesame Seeds",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1 lb",
+     "price": 3.39,
+     "sku": "613",
+     "inStock": true
+    }
+   ]
+  },
+  {
+   "id": "white-smooth-n-melty-mint-wafers",
+   "name": "White Smooth N Melty Mint Wafers",
+   "category": "Candy",
+   "variants": [
+    {
+     "style": "White Smooth N Melty Mint Wafers",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 3.99,
+     "sku": "174",
+     "inStock": false
+    }
+   ]
+  },
+  {
+   "id": "wide-sliced-raw-coconut",
+   "name": "Wide Sliced Raw Coconut",
+   "category": "Coconut",
+   "variants": [
+    {
+     "style": "Wide Sliced Raw Coconut",
+     "salt": "n/a",
+     "roast": "n/a",
+     "size": "1/2 lb",
+     "price": 2.19,
+     "sku": "226",
+     "inStock": true
+    }
+   ]
+  }
+ ]
+}

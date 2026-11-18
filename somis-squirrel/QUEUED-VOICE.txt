@@ -1,0 +1,5 @@
+QUEUED VOICE (Eugene 2026-10-27, updated 4:13 PM CT):
+  ONLY option: voice-samples/poppy-long-o/01-Somnus.mp3 (Piper en_GB-semaine-medium -s 3)
+  Text: "Hi, this is Somnus Nut House. What can I do for you today?" (pronounced SO-mis, long O, no N)
+  Alba was removed as an option.
+DO NOT rebuild or change the squirrel clip until Eugene explicitly says to make changes to it.

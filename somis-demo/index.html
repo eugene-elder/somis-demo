@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Somis Nut House – AI demo</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%90%BF%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="demo.css">
+<style>
+body{height:100vh;overflow:hidden;background:radial-gradient(circle at 50% 60%,#efe0c4,#c9a36b)}
+#stage{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;gap:40px;padding-bottom:22vh}
+.phone{width:170px;height:110px;position:relative}
+.phone .base{position:absolute;bottom:0;width:170px;height:80px;background:#1e1e1e;border-radius:30px 30px 10px 10px}
+.phone .dial{position:absolute;bottom:12px;left:50px;width:70px;height:70px;border-radius:50%;background:radial-gradient(circle,#d9c08a 18%,#222 20%,#222 26%,transparent 27%),repeating-conic-gradient(#eee 0 8deg,#333 8deg 36deg);border:4px solid #333}
+.phone .handset{position:absolute;top:0;left:-5px;width:180px;height:34px;background:#111;border-radius:18px;transition:transform .5s}
+.ring .handset{animation:shake .15s infinite}.ring{animation:shake .2s infinite}
+@keyframes shake{0%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}100%{transform:rotate(-4deg)}}
+.answered .handset{transform:translate(60px,-60px) rotate(-30deg)}
+#sqwrap{transform:translateX(-60vw);transition:transform 1.4s ease-out}#sqwrap.in{transform:none}
+#cap{position:absolute;bottom:8vh;left:50%;transform:translateX(-50%);background:#000b;color:#fff;padding:12px 18px;border-radius:8px;max-width:90vw;font-size:18px;display:none}
+#overlay{position:absolute;inset:0;background:#3d2a17cc;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;z-index:5;cursor:pointer}
+#overlay h1{font-size:44px;margin:0}#mic{position:absolute;top:30px;left:50%;transform:translateX(-50%);display:none;text-align:center}
+</style></head><body>
+<div class="badge">DEMO — not the live site</div>
+<div id="overlay"><h1>Tap to start</h1><p>Somis Nut House · sound on</p><small><a style="color:#fcd" href="?demo=1">demo mode</a> · <a style="color:#fcd" href="screens.html">older screen stubs</a></small></div>
+<div id="stage"><div id="sqwrap"></div><div class="phone" id="phone"><div class="handset"></div><div class="base"></div><div class="dial"></div></div></div>
+<div id="cap"></div>
+<div id="mic" class="card"><p><b>Talk to the squirrel?</b> We'll ask for your microphone.</p><button id="go">Continue</button> <a href="shop.html">No thanks, just browse</a><p id="micmsg"></p></div>
+<script src="squirrel.js"></script><script>
+const demo=new URLSearchParams(location.search).has('demo');
+const welcome=localStorage.getItem('snh_welcome')||"Hi there! Thanks for calling Somis Nut House. I'm the Somis squirrel. What can I get for you today?";
+document.getElementById('sqwrap').innerHTML=squirrelHTML();
+let ctx;function ring(on){ // synthesized ring placeholder (WebAudio), no audio files
+ if(!on||!ctx)return;let n=0;const b=()=>{if(!ringing)return;const o=ctx.createOscillator(),g=ctx.createGain();o.frequency.value=n++%2?440:480;g.gain.value=.08;o.connect(g).connect(ctx.destination);o.start();o.stop(ctx.currentTime+.9);setTimeout(b,n%2?1000:2000)};b()}
+let ringing=false;const $=id=>document.getElementById(id);
+$('overlay').onclick=()=>{ $('overlay').remove();try{ctx=new AudioContext()}catch(e){}
+ ringing=true;$('phone').classList.add('ring');ring(true);
+ setTimeout(()=>$('sqwrap').classList.add('in'),1200);
+ setTimeout(()=>{ringing=false;$('phone').classList.remove('ring');$('phone').classList.add('answered');
+  $('cap').style.display='block';$('cap').textContent=welcome;playCues(fakeCues(welcome)); // TODO: real recorded clip + viseme cues
+  setTimeout(()=>{$('mic').style.display='block'},speakTime(welcome))},3200)};
+$('go').onclick=async()=>{
+ if(demo){location.href='mic-permission.html?next=call.html';return}
+ try{const s=await navigator.mediaDevices.getUserMedia({audio:true});s.getTracks().forEach(t=>t.stop());location.href='call.html'}
+ catch(e){$('micmsg').textContent='Mic not allowed — taking you to the shop…';setTimeout(()=>location.href='shop.html',1200)}};
+</script></body></html>

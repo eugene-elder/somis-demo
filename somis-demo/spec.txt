@@ -1,0 +1,51 @@
+<cursor_untrusted_data_1337 source="ReadCanvas">
+
+Canvas "Somis Nut House AI site: demo spec" (https://cursor.com/canvas/store-4e5101e1-71ad-4d5d-b704-8cb97ff2d9ca/76cde7ba-90f9-4271-a9cd-7cda878f9486):
+
+import { Page, Section, Text, Steps, BulletList, Callout } from "grok/canvas";
+
+export default function App() {
+  return (
+    <Page title="Somis Nut House AI site: demo spec" summary="What the Phase 2 AI site demo does, step by step, and what gets built first for Eugene to review before November 15.">
+      <Section heading="Scope and pricing">
+        <BulletList items={[
+          "Version 1 of the site is covered by the $2,000 already agreed.",
+          "Phase 2, the AI site, is an extra $8,000.",
+          "Phase 2 adds the talking mascot with a synced mouth and ordering in the browser on iPhone, Android, and Windows.",
+          "Nothing goes to Rebecca yet.",
+        ]} />
+      </Section>
+      <Section heading="1. Opening sequence">
+        <Steps steps={[
+          { title: "Background", detail: "A nice background graphic like the current mock-up." },
+          { title: "Antique phone on the table", detail: "As soon as the screen comes up, an antique-looking desk phone with a rotary dial (not a candlestick phone) sits on the table, with its dial in view." },
+          { title: "Phone rings", detail: "A little ring sounds and the phone's handset shakes." },
+          { title: "Squirrel runs up and answers", detail: "Then a 2D squirrel runs up, picks up the handset, and puts it to its ear." },
+          { title: "Welcome line, mouth moving", detail: "\"Hi, welcome to Somis Nut House. Either hit allow for the mic and we can talk, or disallow and I'll give you the normal website.\"" },
+          { title: "Mic choice", detail: "Allow continues as a voice call. Disallow shows the normal website, with no talking; the visitor just clicks through and adds whatever they want. Note: on iPhone and Android, the phone itself pops up its own prompt asking whether the site can use the mic, and the exact timing isn't settled yet. That's why the greeting offers the allow-or-disallow fork. The voice conversation happens only if the visitor allows the mic; without it, there's no talking. Demo mode (only for Eugene showing Rebecca, not for customers): the mic prompt is faked. A Windows-style screen shows a mouse pointer moving to Allow and clicking it, and then the call continues, so viewers see that they just have to hit Allow. In the real product, customers get the real phone or browser prompt and the real choice: allow the mic and talk, or disallow and get the normal click-through site." },
+        ]} />
+      </Section>
+      <Section heading="2. Inside the call">
+        <Steps steps={[
+          { title: "Product question", detail: "The caller names a product (product to be chosen later)." },
+          { title: "Inventory check", detail: "The AI checks inventory in the background and gives a seasonal answer, such as no 50 lb of pecans on site right now." },
+          { title: "Fulfillment date", detail: "Asks when they want it fulfilled, for example November for a grandmother." },
+          { title: "Order for somebody else", detail: "The AI picks up that the order is for someone else: delivered, a gift pack, or a large order (whether large orders are feasible is still to be decided)." },
+          { title: "Shipping info", detail: "Collects the shipping details." },
+          { title: "Fake card entry", detail: "Demo only: the payment is faked, with no real charge. It's not the real site's checkout flow." },
+        ]} />
+      </Section>
+      <Section heading="3. Rebecca's app">
+        <Text>An app on Rebecca's computer with deliberately limited controls over the Phase 2 site.</Text>
+        <BulletList items={["Inventory", "Photos", "A few other site details", "What the mascot says when visitors arrive"]} />
+        <Text>Photos: each product in the app has a photo card. Rebecca clicks the product, then "Replace photo" or "Add photo," and either takes a picture with her phone or drags one in from her computer. The app resizes it automatically and shows a preview, and it goes live when she clicks Save. She never has to think about file names or sizes. It works the same on her phone and her computer, and the preview shows exactly what customers will see. This is the main way she adds or replaces photos.</Text>
+      </Section>
+      <Section heading="First build for review">
+        <Callout>A quick, inexpensive 2D squirrel with a moving mouth on the opening screen, for Eugene to review before he leaves November 15. The welcome line is pre-recorded and timed to the mouth, so there's no monthly voice cost, and it can be swapped for Rebecca's own line later.</Callout>
+      </Section>
+    </Page>
+  );
+}
+
+
+</cursor_untrusted_data_1337>

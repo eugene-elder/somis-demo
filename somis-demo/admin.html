@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Somis Nut House – admin (mock)</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%90%BF%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="demo.css"><style>details.cat{margin:10px 0}details.cat>summary{cursor:pointer;font-weight:bold;font-size:18px;padding:6px 0}
+.vr{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:14px;padding:4px 0;border-bottom:1px solid #eee}.vr span{flex:1}.vr input{width:70px}
+.agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}</style></head><body>
+<div class="badge">ADMIN MOCK — saves to this browser only</div>
+<div class="wrap"><h1>Rebecca's admin (mock)</h1>
+<div class="card"><h3>Welcome line</h3><textarea id="w" rows="3" style="width:100%"></textarea><br><button id="ws">Save</button> <span id="wm"></span></div>
+<h3>Products</h3><p><input id="q" placeholder="Filter…"> <button class="alt" id="reset">Reset all demo data</button></p><div id="g"></div></div>
+<script>
+const $=id=>document.getElementById(id);const L=k=>JSON.parse(localStorage.getItem(k)||'{}'),S=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+$('w').value=localStorage.getItem('snh_welcome')||"Hi there! Thanks for calling Somis Nut House. I'm the Somis squirrel. What can I get for you today?";
+$('ws').onclick=()=>{localStorage.setItem('snh_welcome',$('w').value);$('wm').textContent='Saved ✓'};
+$('reset').onclick=()=>{['snh_welcome','snh_photos','snh_inv','snh_cart','snh_order'].forEach(k=>localStorage.removeItem(k));location.reload()};
+function resize(file,cb){const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const M=600,s=Math.min(1,M/Math.max(im.width,im.height));
+ const c=document.createElement('canvas');c.width=im.width*s|0;c.height=im.height*s|0;c.getContext('2d').drawImage(im,0,0,c.width,c.height);cb(c.toDataURL('image/jpeg',.8),im,c)};im.src=r.result};r.readAsDataURL(file)}
+let P=[];
+function render(){const q=$('q').value.toLowerCase(),imgs=L('snh_photos'),inv=L('snh_inv');$('g').innerHTML='';
+ const cats={};P.filter(p=>p.name.toLowerCase().includes(q)).forEach(p=>(cats[p.category]=cats[p.category]||[]).push(p));
+ Object.entries(cats).forEach(([cat,ps],ci)=>{const det=document.createElement('details');det.className='cat';det.open=!!q||ci==0;det.innerHTML='<summary>'+cat+' ('+ps.length+')</summary><div class="agrid"></div>';const grid=det.querySelector('.agrid');$('g').append(det);
+ ps.forEach(p=>{const d=document.createElement('div');d.className='card';
+  d.innerHTML='<div class="ph">'+(imgs[p.id]?'<img src="'+imgs[p.id]+'">':'no photo')+'</div><b>'+p.name+'</b><br>'+
+  '<label class="btn" style="font-size:13px;margin:6px 0">Replace/Add photo<input type="file" accept="image/*" capture="environment" hidden></label><div class="pv"></div>'+
+  '<div style="font-size:12px;color:#666">Stock qty per option:</div>'+p.variants.map(v=>'<label class="vr"><span>'+([v.salt,v.roast,v.size].filter(x=>x!='n/a').join(' · ')||'Standard')+' — $'+v.price.toFixed(2)+'</span><input type="number" min="0" data-sku="'+v.sku+'" value="'+(inv[v.sku]??(v.inStock?10:0))+'"></label>').join('')+'<button style="margin-top:6px">Save</button>';
+  let pending;const ph=d.querySelector('.ph');
+  const take=f=>resize(f,(url,im,c)=>{pending=url;ph.innerHTML='<img src="'+url+'">';d.querySelector('.pv').innerHTML='<small>Preview: '+im.width+'×'+im.height+' → '+c.width+'×'+c.height+' (not saved yet)</small>'});
+  d.querySelector('input[type=file]').onchange=e=>e.target.files[0]&&take(e.target.files[0]);
+  ph.ondragover=e=>e.preventDefault();ph.ondrop=e=>{e.preventDefault();e.dataTransfer.files[0]&&take(e.dataTransfer.files[0])};
+  d.querySelector('button').onclick=()=>{const im=L('snh_photos'),iv=L('snh_inv');if(pending)im[p.id]=pending;d.querySelectorAll('[data-sku]').forEach(x=>iv[x.dataset.sku]=+x.value);
+   try{S('snh_photos',im);S('snh_inv',iv);d.querySelector('.pv').innerHTML='<small>Saved ✓ (localStorage)</small>'}catch(e){alert('Browser storage full — try a smaller photo')}};
+  grid.append(d)})})}
+fetch('products.json').then(r=>r.json()).then(j=>{P=j.products;render()});$('q').oninput=render;
+</script></body></html>

@@ -1,0 +1,9 @@
+
+/* ===== desktop stage ===== */
+.stage{min-height:100vh;display:flex;align-items:center;justify-content:center;gap:64px;padding:40px;
+ background:radial-gradient(900px 600px at 70% 20%,rgba(242,193,78,.18),transparent 60%),radial-gradient(700px 500px at 10% 90%,rgba(255,106,19,.12),transparent 60%),linear-gradient(160deg,#2A1806,#4A2C0B 55%,#1c1004);position:relative;overflow:hidden}
+
+.stage:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(242,193,78,.5) 1px,transparent 1.5px);background-size:46px 46px;opacity:.18;pointer-events:none}
+
+/* hero */
+.hero{position:relative;padding:22px 20px 26px;color:var(--cream);overflow:hidden;background:radial-gradient(circle at 75% 30%,rgba(242,193,78,.35),transparent 55%),linear-gradient(180deg,#4A2C0B,#2A1806)}

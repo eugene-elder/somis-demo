@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Somis Nut House – demo call (v2)</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%90%BF%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="demo.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>.row{display:flex;gap:20px;flex-wrap:nowrap;align-items:flex-start}#v1cart{margin-left:auto}
+#sqbox{flex:1 1 auto;min-width:420px;align-self:center}#sqbox iframe{width:100%;height:844px;border:0;background:transparent}
+/* ===== copied from V1 demo (eugene-elder/somis-redesign-demo index.html, nav item 5 "Cart Slide-Up": #dim/#sheet .sheet/.shd/.ship/.lines/.line/.sum/.mini/.track/.btn), scoped under #v1cart ===== */
+#v1cart{--d:#2A1806;--b1:#4A2C0B;--b2:#8B5A2B;--gold:#F2C14E;--cream:#FFF4DF;--em:#1E9E6A;--or:#FF6A13;--ink:#2A1806;--muted:#8a7360;
+ font-family:Poppins,system-ui,sans-serif;color:var(--ink);flex:none;margin-left:auto}
+#v1cart .phone{width:390px;height:844px;border-radius:54px;background:#0d0702;padding:12px;box-shadow:0 0 0 2px #6b4a24,0 0 0 9px #1a0f05,0 40px 90px rgba(0,0,0,.65),0 0 120px rgba(242,193,78,.18);position:relative}
+#v1cart .screen{width:100%;height:100%;border-radius:43px;overflow:hidden;position:relative;background:linear-gradient(160deg,#2A1806,#4A2C0B 55%,#1c1004)}
+#v2ctl{text-align:center;margin-top:18px}
+#v1cart .screen *{box-sizing:border-box;margin:0;padding:0}#v1cart .screen button{font:inherit;border:0;background:none;color:inherit}
+#v1cart .dim{position:absolute;inset:0;background:rgba(20,10,2,.6);z-index:70;opacity:0;transition:.35s}#v1cart .dim.on{opacity:1}
+#v1cart .sheet{position:absolute;left:0;right:0;bottom:0;max-height:86%;height:86%;background:var(--cream);border-radius:30px 30px 0 0;z-index:80;transform:translateY(105%);transition:transform .45s cubic-bezier(.2,.9,.25,1.05);display:flex;flex-direction:column;box-shadow:0 -20px 50px rgba(0,0,0,.4)}
+#v1cart .sheet.on{transform:none}
+#v1cart .grab{width:44px;height:5px;border-radius:3px;background:#d6c09b;margin:10px auto 4px}
+#v1cart .shd{display:flex;justify-content:space-between;align-items:center;padding:4px 20px 10px}
+#v1cart .shd h2{font-family:'Bebas Neue';font-weight:400;font-size:32px;color:var(--b1);letter-spacing:.5px}
+#v1cart .shd h2 span{font-family:'Great Vibes';font-size:20px;color:var(--b2);margin-left:6px;letter-spacing:0}
+#v1cart .shd button{width:34px;height:34px;border-radius:50%;background:#f0dfc0;color:var(--b1);font-size:16px}
+#v1cart .ship{margin:0 20px 10px;background:#fff;border-radius:16px;padding:12px 14px;box-shadow:0 4px 12px rgba(74,44,11,.07)}
+#v1cart .ship p{font-size:12px;font-weight:600;color:var(--b1);margin-bottom:8px}#v1cart .ship p b{color:var(--or)}
+#v1cart .track{height:9px;border-radius:9px;background:#ead9bb;overflow:hidden}
+#v1cart .track i{display:block;height:100%;border-radius:9px;transition:width .4s;background:linear-gradient(90deg,var(--em),#5be0a6)}
+#v1cart .lines{overflow-y:auto;padding:0 20px;flex:1;scrollbar-width:none}
+#v1cart .line{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px dashed #e2cfac}
+#v1cart .line .th{width:64px;height:64px;border-radius:16px;background-size:cover;background-position:center;flex:none;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+#v1cart .line .nm{flex:1;font-size:13px;font-weight:600;line-height:1.3}
+#v1cart .line .nm span{display:block;font-size:11px;color:var(--muted);font-weight:500}
+#v1cart .line .nm b{display:block;font-family:'Bebas Neue';font-size:20px;color:var(--b1);font-weight:400;margin-top:2px}
+#v1cart .mini{display:flex;align-items:center;gap:4px}
+#v1cart .mini button{width:30px;height:30px;border-radius:50%;background:#f3e3c4;color:var(--b1);font-weight:700;font-size:16px}
+#v1cart .mini button.p{background:var(--em);color:#fff}#v1cart .mini span{width:20px;text-align:center;font-weight:700;font-size:14px}
+#v1cart .sum{padding:12px 20px 22px;background:#fff;border-radius:24px 24px 0 0;box-shadow:0 -6px 20px rgba(74,44,11,.08)}
+#v1cart .sum .r{display:flex;justify-content:space-between;font-size:13px;color:#5c4532;margin-bottom:5px}
+#v1cart .sum .r.t{font-weight:700;color:var(--b1);font-size:15px;margin:8px 0 12px}
+#v1cart .sum .r.t b{font-family:'Bebas Neue';font-size:28px;font-weight:400;color:var(--or)}
+#v1cart .sum small{display:block;text-align:center;font-size:10px;color:var(--muted);margin-top:8px}
+#v1cart .empty{text-align:center;padding:30px 0;color:var(--muted);font-size:13px}
+#v1cart .btn{display:flex;align-items:center;justify-content:center;gap:8px;padding:13px 18px;border-radius:30px;font-family:'Bebas Neue';font-size:19px;letter-spacing:1px;color:#fff;text-decoration:none;background:linear-gradient(135deg,#FF8A2B,#FF5A0A);box-shadow:0 8px 22px rgba(255,106,19,.45);width:100%}
+/* v2 additions: pop-in animation + gift detail rows */
+#v1cart .line.pop{animation:v2pop .7s cubic-bezier(.2,1.4,.4,1)}
+@keyframes v2pop{0%{transform:translateX(120%) scale(.6);opacity:0}60%{transform:translateX(-4%) scale(1.06);opacity:1}100%{transform:none}}
+#v1cart .det{font-size:11px;color:var(--muted);margin:6px 0 0}#v1cart .det div{margin:2px 0}#v1cart .det b{color:var(--b1)}
+#v1cart .det div.pop{animation:v2fade .6s}@keyframes v2fade{from{background:#ffe58a}}
+#v1cart .bump{animation:v2bump .5s}@keyframes v2bump{50%{transform:scale(1.12)}}
+</style></head><body>
+<div class="badge">DEMO — scripted call, no live AI</div>
+<div class="wrap"><div class="row"><div id="sqbox"></div>
+<!-- Cart = V1 demo item 5 "Cart Slide-Up" sheet; no transcript/captions in v2 -->
+<div id="v1cart"><div class="phone"><div class="screen"><div class="dim" id="dim"></div>
+ <div class="sheet" id="sheet"><div class="grab"></div>
+  <div class="shd"><h2>Your Cart<span>crack open happiness</span></h2><button aria-hidden="true">✕</button></div>
+  <div class="ship"><p id="shiptxt">🐿️ The squirrel is taking your order…</p><div class="track"><i id="shippct" style="width:0"></i></div><div class="det" id="det"></div></div>
+  <div class="lines" id="lines"><div class="empty">🐿️ Your cart is empty — go nuts!</div></div>
+  <div class="sum"><div class="r"><span>Subtotal</span><span id="sub">$0.00</span></div><div class="r"><span>Shipping</span><span id="shp">—</span></div>
+   <div class="r t"><span>Total</span><b id="tot">$0.00</b></div>
+   <a class="btn" id="pay" style="display:none" href="payment.html">Enter card (DEMO, no charge) →</a><small>Concept preview · no payment is collected</small></div>
+ </div></div></div>
+ <div id="v2ctl"><button id="next">Next ▶</button> <button class="alt" id="auto">Auto-play</button></div></div></div></div>
+<script src="squirrel.js"></script><script>
+document.getElementById('sqbox').innerHTML=squirrelHTML();
+// Use the animated squirrel embed only if it is actually served; otherwise keep the CSS squirrel.
+(function(){/* 2D fallback: const SQ='../somis-squirrel/index.html?embed'; */ /* v3 fallback: const SQ='../somis-squirrel/v3/index.html?embed&autostart'; */ const SQ='../somis-squirrel/v4/index.html?embed&autostart';fetch(SQ,{method:'HEAD'}).then(r=>{if(!r.ok)return;
+ const f=document.createElement('iframe');f.src=SQ;f.title='Somis squirrel';f.allow='autoplay; microphone';
+ const b=document.getElementById('sqbox');b.innerHTML='';b.append(f)}).catch(()=>{})})();
+const $=id=>document.getElementById(id);
+// Real products from real-inventory.md: Salted 320ct Cashews 1lb $8.99 (SKU 328); Raw Shelled Pistachios OOS-at-size example uses Salted Pistachios 4lbs (OOS, SKU 386)
+const S=[
+ ['u',"Hi! I'd like to order some cashews."],
+ ['s',"Great choice! Would you like them salted or unsalted?"],
+ ['u',"Salted, please."],
+ ['s',"Raw or roasted? Our salted cashews come roasted, the Salted 320-count Cashews.",null],
+ ['u',"Roasted is fine. What sizes do you have?"],
+ ['s',"Half pound for $4.55 or one pound for $8.99. I'm checking stock... both in stock.",null],
+ ['u',"Two of the one-pound bags. And do you have the 4 pound salted pistachios?"],
+ ['s',"Sorry, the 4 lb Salted Pistachios are out of stock right now. The 2 lb bag is $33.80 if you'd like that instead.",{line:{n:'Salted 320ct Cashews',v:'1 lb · roasted',p:8.99,q:2}}],
+ ['u',"No thanks, just the cashews. They're for my grandmother — can they arrive in November?"],
+ ['s',"Of course! Sounds like a gift for someone else. Shall I ship it to her, gift-wrapped? What date in November?",{k:'Recipient',v:'Grandmother (gift)'}],
+ ['u',"Yes, by November 20th please."],
+ ['s',"We'll ship to arrive by Nov 20. What's her shipping address?",{k:'Deliver by',v:'Nov 20, 2026'}],
+ ['u',"123 Example Lane, Somis, CA 93066."],
+ ['s',"Got it. Standard shipping is $9.95 (demo rate). Ready to enter a card? It's a demo — nothing will be charged.",{k:'Ship to',v:'123 Example Lane, Somis CA (demo)'},{k:'Shipping',v:'$9.95 (placeholder)',ship:9.95}],
+];
+let i=0,total=0,ship=0,timer;const lines=[];
+const money=n=>'$'+n.toFixed(2);
+function draw(pop){$('lines').innerHTML=lines.length?lines.map((c,j)=>`<div class="line${pop===j?' pop':''}"><div class="th" style="background-image:url(assets/v1-cashews.jpg)"></div><div class="nm">${c.n}<span>${c.v}</span><b>${money(c.p*c.q)}</b></div><div class="mini"><button>−</button><span>${c.q}</span><button class="p">+</button></div></div>`).join(''):'<div class="empty">🐿️ Your cart is empty — go nuts!</div>';
+ $('sub').textContent=money(total);$('shp').textContent=ship?money(ship):'—';const t=$('tot');t.textContent=money(total+ship);t.classList.remove('bump');void t.offsetWidth;t.classList.add('bump')}
+function add(x){if(x.line){lines.push(x.line);total+=x.line.p*x.line.q;$('shiptxt').innerHTML='🛒 Added <b>'+x.line.q+' × '+x.line.n+'</b>';$('shippct').style.width='60%';draw(lines.length-1)}
+ else{if(x.ship){ship=x.ship;$('shippct').style.width='100%';$('shiptxt').innerHTML='🚚 Standard shipping <b>'+money(ship)+'</b> (demo rate)';draw()}
+  const d=document.createElement('div');d.className='pop';d.innerHTML='<b>'+x.k+':</b> '+x.v;$('det').append(d)}}
+function next(){if(i>=S.length){$('next').disabled=true;$('auto').disabled=true;$('pay').style.display='flex';clearInterval(timer);localStorage.setItem('snh_order',JSON.stringify({total:+(total+ship).toFixed(2)}));return}
+ const [w,t,...items]=S[i++];
+ if(w=='s')playCues(fakeCues(t));items.filter(Boolean).forEach(add);if(i>=S.length)next()}
+setTimeout(()=>{$('dim').classList.add('on');$('sheet').classList.add('on')},300);
+$('next').onclick=next;$('auto').onclick=()=>{clearInterval(timer);timer=setInterval(next,2600);next()};next();
+</script></body></html>

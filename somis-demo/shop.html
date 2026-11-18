@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Somis Nut House – shop (demo)</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%90%BF%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="demo.css"></head><body>
+<div class="badge">DEMO shop — mock data</div>
+<div class="wrap"><h1>Somis Nut House</h1><p>Click-through shop (no talking). <input id="q" placeholder="Search…"> <span id="cart">Cart: 0 items</span> <button type="button" id="checkout">Checkout (demo)</button></p>
+<div class="grid" id="g"></div></div>
+<script>
+const imgs=JSON.parse(localStorage.getItem('snh_photos')||'{}'),inv=JSON.parse(localStorage.getItem('snh_inv')||'{}');
+let P=[],cart=JSON.parse(localStorage.getItem('snh_cart')||'[]');const $=id=>document.getElementById(id);
+const opts=(vs,k)=>[...new Set(vs.map(v=>v[k]))];
+function card(p){const d=document.createElement('div');d.className='card';
+ const dims=['salt','roast','size'].filter(k=>opts(p.variants,k).length>1||(k=='size'));
+ d.innerHTML='<div class="ph">'+(imgs[p.id]?'<img src="'+imgs[p.id]+'">':'photo placeholder')+'</div><h3>'+p.name+'</h3>'+
+  dims.map(k=>'<label>'+k+' <select data-k="'+k+'">'+opts(p.variants,k).map(o=>'<option>'+o+'</option>').join('')+'</select></label><br>').join('')+
+  '<p class="info"></p><button>Add to cart</button>';
+ const upd=()=>{const sel={};d.querySelectorAll('select').forEach(s=>sel[s.dataset.k]=s.value);
+  const v=p.variants.find(v=>Object.entries(sel).every(([k,x])=>v[k]==x));const stock=v&&(inv[v.sku]!==undefined?inv[v.sku]>0:v.inStock);
+  d.querySelector('.info').innerHTML=v?(p.variants.length>1?'<small>'+v.style+'</small><br>':'')+'$'+v.price.toFixed(2)+' · '+(stock?'in stock':'<b style="color:#a33">out of stock</b>'):'<i>combination not available</i>';
+  d.querySelector('button').disabled=!(v&&stock);d._v=v};
+ d.querySelectorAll('select').forEach(s=>s.onchange=upd);upd();
+ d.querySelector('button').onclick=()=>{cart.push({name:p.name,...d._v});localStorage.setItem('snh_cart',JSON.stringify(cart));showCart()};return d}
+function showCart(){$('checkout').disabled=!cart.length;$('cart').textContent='Cart: '+cart.length+' items, $'+cart.reduce((a,c)=>a+c.price,0).toFixed(2)}
+function render(){const q=$('q').value.toLowerCase();$('g').innerHTML='';P.filter(p=>p.name.toLowerCase().includes(q)).forEach(p=>$('g').append(card(p)))}
+fetch('products.json').then(r=>r.json()).then(j=>{P=j.products;render();showCart()});$('q').oninput=render;
+$('checkout').onclick=()=>{location.href='checkout.html'};
+</script></body></html>

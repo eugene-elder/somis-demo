@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Somis Nut House – checkout (demo)</title><link rel="icon" href="data:,"><link rel="stylesheet" href="demo.css">
+<style>table{width:100%;border-collapse:collapse}td,th{padding:6px;border-bottom:1px solid #ddd;text-align:left}td.r,th.r{text-align:right}
+form label{display:block;margin:6px 0}form input{width:100%;max-width:360px}</style></head><body>
+<div class="badge">DEMO checkout — no charge, nothing is sent</div>
+<div class="wrap"><h1>Checkout</h1><p><a href="shop.html">← Back to shop</a></p>
+<div id="main"><div class="card"><h3>Your cart</h3><table><thead><tr><th>Item</th><th>Options</th><th class="r">Price</th><th></th></tr></thead><tbody id="lines"></tbody></table>
+<p id="sums"></p></div>
+<form class="card" id="f"><h3>Ship to (demo)</h3>
+<label>Name <input name="name" required></label><label>Street <input name="street" required></label>
+<label>City <input name="city" required></label><label>State <input name="state" required maxlength="2" style="max-width:80px"></label>
+<label>ZIP <input name="zip" required pattern="\d{5}" style="max-width:120px"></label>
+<button type="submit" id="place">Place order (demo, no charge)</button></form></div>
+<div class="card" id="done" style="display:none"></div></div>
+<script>
+const $=id=>document.getElementById(id),SHIP=9.95;let cart=JSON.parse(localStorage.getItem('snh_cart')||'[]');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function render(){const sub=cart.reduce((a,c)=>a+c.price,0);
+ $('lines').innerHTML=cart.length?cart.map((c,i)=>'<tr><td>'+esc(c.name)+'</td><td>'+esc([c.salt,c.roast,c.size].filter(x=>x&&x!='n/a').join(' · '))+'</td><td class="r">$'+c.price.toFixed(2)+'</td><td><button type="button" class="alt" data-i="'+i+'">Remove</button></td></tr>').join(''):'<tr><td colspan="4"><i>Cart is empty.</i></td></tr>';
+ $('sums').innerHTML=cart.length?'Subtotal: $'+sub.toFixed(2)+'<br>Shipping (flat): $'+SHIP.toFixed(2)+'<br><b>Total: $'+(sub+SHIP).toFixed(2)+'</b>':'';
+ $('place').disabled=!cart.length;
+ document.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>{cart.splice(+b.dataset.i,1);localStorage.setItem('snh_cart',JSON.stringify(cart));render()})}
+$('f').onsubmit=e=>{e.preventDefault();if(!cart.length)return;const d=Object.fromEntries(new FormData($('f')));const tot=cart.reduce((a,c)=>a+c.price,0)+SHIP;
+ $('main').style.display='none';$('done').style.display='block';
+ $('done').innerHTML='<h3>Order placed ✓ (demo)</h3><p>Demo order #SNH-'+Date.now().toString().slice(-6)+' — '+cart.length+' item(s), total $'+tot.toFixed(2)+'.</p><p>Shipping to '+esc(d.name)+', '+esc(d.street)+', '+esc(d.city)+' '+esc(d.state)+' '+esc(d.zip)+'.</p><p><b>No card was charged and nothing was sent.</b></p><p><a href="shop.html">Back to shop</a></p>';
+ localStorage.removeItem('snh_cart');cart=[]};
+render();
+</script></body></html>

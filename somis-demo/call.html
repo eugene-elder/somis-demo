@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Somis Nut House – demo call</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%90%BF%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="demo.css">
+<style>.row{display:flex;gap:20px;flex-wrap:wrap}.log{flex:2;min-width:280px;height:60vh;overflow:auto}.sum{flex:1;min-width:240px}
+.m{margin:8px 0;padding:8px 12px;border-radius:10px;max-width:85%}.s{background:#f3e3c3}.u{background:#d9ecff;margin-left:auto}
+.sum li{margin:4px 0}.sum li.new{animation:hl 1.2s}@keyframes hl{from{background:#ffe58a}}</style></head><body>
+<div class="badge">DEMO — scripted call, no live AI</div>
+<div class="wrap"><div class="row"><div style="flex:0 0 160px" id="sqbox"></div>
+<div class="card log" id="log"></div>
+<div class="card sum"><h3>Order summary</h3><ul id="sum"></ul><p id="tot"></p><a class="btn" id="pay" style="display:none" href="payment.html">Enter card (DEMO, no charge) →</a></div></div>
+<p><button id="next">Next ▶</button> <button class="alt" id="auto">Auto-play</button> <a href="shop.html">Switch to the click-through shop</a></p></div>
+<script src="squirrel.js"></script><script>
+document.getElementById('sqbox').innerHTML=squirrelHTML();
+// Use the animated squirrel embed only if it is actually served; otherwise keep the CSS squirrel.
+(function(){/* 2D fallback: const SQ='../somis-squirrel/index.html?embed'; */ const SQ='../somis-squirrel/v3/index.html?embed&autostart';fetch(SQ,{method:'HEAD'}).then(r=>{if(!r.ok)return;
+ const f=document.createElement('iframe');f.src=SQ;f.title='Somis squirrel';f.style.cssText='width:160px;height:200px;border:0';
+ const b=document.getElementById('sqbox');b.innerHTML='';b.append(f)}).catch(()=>{})})();
+const $=id=>document.getElementById(id);
+// Real products from real-inventory.md: Salted 320ct Cashews 1lb $8.99 (SKU 328); Raw Shelled Pistachios OOS-at-size example uses Salted Pistachios 4lbs (OOS, SKU 386)
+const S=[
+ ['u',"Hi! I'd like to order some cashews."],
+ ['s',"Great choice! Would you like them salted or unsalted?"],
+ ['u',"Salted, please."],
+ ['s',"Raw or roasted? Our salted cashews come roasted, the Salted 320-count Cashews.",{k:'Product',v:'Salted 320ct Cashews (roasted)'}],
+ ['u',"Roasted is fine. What sizes do you have?"],
+ ['s',"Half pound for $4.55 or one pound for $8.99. I'm checking stock... both in stock.",null],
+ ['u',"Two of the one-pound bags. And do you have the 4 pound salted pistachios?"],
+ ['s',"Sorry, the 4 lb Salted Pistachios are out of stock right now. The 2 lb bag is $33.80 if you'd like that instead.",{k:'Item',v:'2 × 1 lb Salted 320ct Cashews — $17.98',p:17.98}],
+ ['u',"No thanks, just the cashews. They're for my grandmother — can they arrive in November?"],
+ ['s',"Of course! Sounds like a gift for someone else. Shall I ship it to her, gift-wrapped? What date in November?",{k:'Recipient',v:'Grandmother (gift)'}],
+ ['u',"Yes, by November 20th please."],
+ ['s',"We'll ship to arrive by Nov 20. What's her shipping address?",{k:'Deliver by',v:'Nov 20, 2026'}],
+ ['u',"123 Example Lane, Somis, CA 93066."],
+ ['s',"Got it. Standard shipping is $9.95 (demo rate). Ready to enter a card? It's a demo — nothing will be charged.",{k:'Ship to',v:'123 Example Lane, Somis CA (demo)'},{k:'Shipping',v:'$9.95 (placeholder)',p:9.95}],
+];
+let i=0,total=0,timer;
+function add(k,v,p){const li=document.createElement('li');li.className='new';li.innerHTML='<b>'+k+':</b> '+v;$('sum').append(li);if(p){total+=p;$('tot').innerHTML='<b>Total: $'+total.toFixed(2)+'</b>'}}
+function next(){if(i>=S.length){$('next').disabled=true;$('auto').disabled=true;$('pay').style.display='inline-block';clearInterval(timer);localStorage.setItem('snh_order',JSON.stringify({total}));return}
+ const [w,t,...items]=S[i++];const d=document.createElement('div');d.className='m '+w;d.textContent=(w=='s'?'🐿️ ':'You: ')+t;$('log').append(d);$('log').scrollTop=1e6;
+ if(w=='s')playCues(fakeCues(t));items.filter(Boolean).forEach(x=>add(x.k,x.v,x.p));if(i>=S.length)next()}
+$('next').onclick=next;$('auto').onclick=()=>{clearInterval(timer);timer=setInterval(next,2600);next()};next();
+</script></body></html>
